@@ -1,0 +1,26 @@
+.header__navigation__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.4rem;
+}
+
+.header__hero {
+    padding-top: 10.1rem; 
+    padding-bottom: 11rem;
+}
+.header__hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__hero__content {
+    width: 100%;
+    max-width: 450px;
+}
+.header__hero__title {
+    margin-bottom: 2.9rem;
+}
+.header__hero__description {
+    margin-bottom: 4rem;
+}

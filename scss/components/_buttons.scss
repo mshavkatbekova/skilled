@@ -1,0 +1,48 @@
+.header__btn {
+  @include buttons(
+    1.4rem,
+    1.4rem,
+    10px,
+    10px,
+    100%,
+    16.7rem,
+    $dark-green-color
+  );
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  color: $white-color;
+}
+
+.hero__btn {
+  @include buttons(
+    1.9rem,
+    1.6rem,
+    10px,
+    10px,
+    100%,
+    16.7rem,
+    $yellow-pink-color
+  );
+  text-align: center;
+  border-radius: 31px;
+  font-weight: 700;
+  color: $white-color;
+}
+
+.footer__btn {
+  @include buttons(
+    1.4rem,
+    1.4rem,
+    10px,
+    10px,
+    100%,
+    16.7rem,
+    $purple-pink-color
+  );
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  color: $white-color;
+  width: 100%;
+}

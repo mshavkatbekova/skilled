@@ -1,0 +1,246 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 1.8rem;
+  color: #83869A;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #13183F;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5.6rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.header__btn {
+  padding-bottom: 1.4rem;
+  padding-top: 1.4rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 16.7rem;
+  background: #13183F;
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.hero__btn {
+  padding-bottom: 1.6rem;
+  padding-top: 1.9rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 16.7rem;
+  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  text-align: center;
+  border-radius: 31px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer__btn {
+  padding-bottom: 1.4rem;
+  padding-top: 1.4rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 16.7rem;
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.footer__navigation {
+  background-color: #13183F;
+}
+
+.footer__navigation__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo__white {
+  padding-top: 46px;
+  padding-bottom: 45px;
+}
+
+.footer__btn {
+  max-width: 167px;
+  height: 56px;
+}
+
+.header__navigation__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.4rem;
+}
+
+.header__hero {
+  padding-top: 10.1rem;
+  padding-bottom: 11rem;
+}
+
+.header__hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__hero__content {
+  width: 100%;
+  max-width: 450px;
+}
+
+.header__hero__title {
+  margin-bottom: 2.9rem;
+}
+
+.header__hero__description {
+  margin-bottom: 4rem;
+}
+
+.features {
+  margin-bottom: 14rem;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5.6rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.features__item:first-child {
+  background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  color: #FFFFFF;
+}
+
+.features__title__big {
+  color: #fff;
+}
+
+.features__item {
+  width: 350px;
+  padding: 6.4rem 3.2rem 4rem;
+  background-color: #ffffff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.0431372549);
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 332px;
+}
+
+.features__title {
+  margin-bottom: 2.4rem;
+}
+
+.features__item__image {
+  margin-top: -8.7rem;
+  margin-bottom: 3.2rem;
+}
+
+.features__item__description {
+  margin-bottom: auto;
+}
+
+.features__item__link {
+  font-weight: bold;
+  color: tomato;
+}/*# sourceMappingURL=style.css.map */
